@@ -1,48 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Matthew Allen's Portfolio</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="assets/css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="assets/css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    /* Necessary for full page carousel*/
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+    .carousel-inner {
+      height: 100%;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+          background: #1C2331!important;
+      }
+  }
+
+  </style>
 </head>
+
 <body>
-        <section class="header">
-            <div class="name">
-                <h1>Matthew Allen</h1>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="" target="">
+        <strong>Matthew Allen</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="" target="_blank"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="" target="_blank"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="" target="_blank"></a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/profile.php?id=7020493" class="nav-link" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/matthew-allen-5a486972/" class="nav-link" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/JustMrMatt" class="nav-link border border-light rounded waves-effect waves-light"
+                target="_blank">
+                <i class="fab fa-github mr-1"></i>GitHub
+              </a>
+            </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!-- data-ride="carousel" -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade">
+
+    <!--Indicators-->
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop muted>
+            <source src="assets/img/Relaxing Ocean Waves at Sunset.mp4" type="video/mp4" />
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4"><strong>Welcome To My Portfolio</strong></h1>
+              <h3>Here you will find</h3>
+              <br>
+              <h5>
+                <p>Introduction About Me</p>
+                <p>Projects I have worked on</p>
+                <p>Skills I possess</p>
+              </h5>
             </div>
-            <div id="placeholder">
-            </div>
-            <div id="options">
-                <p><a href="index.html">About</a>  |  <a href="portfolio.html">Portfolio</a>  |  <a href="contact.html">Contact</a></p>
-            </div>
-        </section>
-        <div class="Main">
-            <div class="One">
-                <hr>
-                <div class="Two">
-                    <h2>About Me</h2>
-                    <hr>
-                </div>
-                <img src="assets/images/ProfilePictureProfessional.jpg" class="Main-Picture" alt="Profile Picture">
-                <p>Repellat omnis ut velit id doloribus molestias. Illo ea et aut fuga labore enim vitae non. Veniam dolores ut et pariatur sint quod. Ea unde quia aut consequatur qui sit. Voluptatem illo qui cumque optio. Inventore sunt aut debitis corrupti.
-                Nisi molestias odit doloremque dolores voluptas libero. Ea et nostrum aut iusto ad at voluptate. Ea consequuntur saepe accusamus dolores minima. Aspernatur et facilis eius nesciunt nisi quidem voluptatibus porro.
-                Nam aliquid nihil laudantium qui. Fuga laboriosam ipsa rerum. Sunt non accusantium rerum consectetur odit et culpa. Quas eos provident ut expedita. Mollitia tempore voluptatem non eaque laboriosam corrupti.</p>
-                <p>Repellat omnis ut velit id doloribus molestias. Illo ea et aut fuga labore enim vitae non. Veniam dolores ut et pariatur sint quod. Ea unde quia aut consequatur qui sit. Voluptatem illo qui cumque optio. Inventore sunt aut debitis corrupti.
-                Nisi molestias odit doloremque dolores voluptas libero. Ea et nostrum aut iusto ad at voluptate. Ea consequuntur saepe accusamus dolores minima. Aspernatur et facilis eius nesciunt nisi quidem voluptatibus porro.
-                Nam aliquid nihil laudantium qui. Fuga laboriosam ipsa rerum. Sunt non accusantium rerum consectetur odit et culpa. Quas eos provident ut expedita. Mollitia tempore voluptatem non eaque laboriosam corrupti.</p>
-                <p>Repellat omnis ut velit id doloribus molestias. Illo ea et aut fuga labore enim vitae non. Veniam dolores ut et pariatur sint quod. Ea unde quia aut consequatur qui sit. Voluptatem illo qui cumque optio. Inventore sunt aut debitis corrupti.
-                Nisi molestias odit doloremque dolores voluptas libero. Ea et nostrum aut iusto ad at voluptate. Ea consequuntur saepe accusamus dolores minima. Aspernatur et facilis eius nesciunt nisi quidem voluptatibus porro.
-                Nam aliquid nihil laudantium qui. Fuga laboriosam ipsa rerum. Sunt non accusantium rerum consectetur odit et culpa. Quas eos provident ut expedita. Mollitia tempore voluptatem non eaque laboriosam corrupti.</p>
-            </div>
+          </div>
         </div>
-        <div class="footer">
-            <p><h6>Copyright ©</h6></p>
+      </div>
+  </div>
+  <main>
+    <div class="container">
+
+      <section class="mt-5 wow fadeIn">
+
+        <div class="row">
+
+          <div class="col-md-6 mb-4">
+
+            <img src="assets/img/ProfilePictureProfessional.jpg" class="img-fluid z-depth-1-half" alt="Profile Picture">
+
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <h3 class="h3 mb-3">About Me</h3>
+            <hr>
+            <p>
+              <p>Repellat omnis ut velit id doloribus molestias. Illo ea et aut fuga labore enim vitae non. Veniam dolores ut et pariatur sint quod. Ea unde quia aut consequatur qui sit. Voluptatem illo qui cumque optio. Inventore sunt aut debitis corrupti.
+              Nisi molestias odit doloremque dolores voluptas libero. Ea et nostrum aut iusto ad at voluptate. Ea consequuntur saepe accusamus dolores minima. Aspernatur et facilis eius nesciunt nisi quidem voluptatibus porro.
+              Nam aliquid nihil laudantium qui. Fuga laboriosam ipsa rerum. Sunt non accusantium rerum consectetur odit et culpa. Quas eos provident ut expedita. Mollitia tempore voluptatem non eaque laboriosam corrupti.</p>
+              <p>Repellat omnis ut velit id doloribus molestias. Illo ea et aut fuga labore enim vitae non. Veniam dolores ut et pariatur sint quod. Ea unde quia aut consequatur qui sit. Voluptatem illo qui cumque optio. Inventore sunt aut debitis corrupti.
+              Nisi molestias odit doloremque dolores voluptas libero. Ea et nostrum aut iusto ad at voluptate. Ea consequuntur saepe accusamus dolores minima. Aspernatur et facilis eius nesciunt nisi quidem voluptatibus porro.
+              Nam aliquid nihil laudantium qui. Fuga laboriosam ipsa rerum. Sunt non accusantium rerum consectetur odit et culpa. Quas eos provident ut expedita. Mollitia tempore voluptatem non eaque laboriosam corrupti.</p>
+            </p>
+          </div>
+
         </div>
-                
-                       
+
+      </section>
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+
+      <!--Section: Not enough-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">Body of Work</h2>
+
+        <!--First row-->
+        <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+          <!--First column-->
+          <div class="col-md-4">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Route 420 App</h6>
+                <p class="grey-text">CBD product locator that identifies where specific CBD relateed products are sold based on a users location. I was part of the front end team and helped with design.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Grab a Bite App</h6>
+                <p class="grey-text">Date night style app where users can see restaurants nearby and link to additional information. I was responsible for the front end coding and design.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Funko Style RPG Game</h6>
+                <p class="grey-text">An RPG style game where a user selects a character and battles opponents in an arena setting.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Crystal Collector Game</h6>
+                <p class="grey-text">A simple game where a user has to identify a pattern by clicking crystals with the goal being to reach a randomly chosen total.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Fourth row-->
+          </div>
+          <!--/First column-->
+
+          <!--Second column-->
+          <div class="col-md-4 flex-center">
+            <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone" class="z-depth-0 img-fluid">
+          </div>
+          <!--/Second column-->
+
+          <!--Third column-->
+          <div class="col-md-4 mt-2">
+            <!--First row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Str8 Fire Technical Solutions</h6>
+                <p class="grey-text">A cryptocurrency mining operation where user can obtain stock information as well as purchase crypto-mining contracts. I am a co-founder and am responsible for full web design.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">Allen, Allen & Foster, LLC.</h6>
+                <p class="grey-text">I helped design the front end and help keep everything up to date as well as make adjustments at the request of the owner.</p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-2">
+                <i class="fas fa-check-circle fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h6 class="feature-title">The Bearded Veteran</h6>
+                <p class="grey-text">I helped design the website as well as make adjustments as needed at the request of the owner.
+                </p>
+                <div style="height:15px"></div>
+              </div>
+            </div>
+            <!--/Third row-->
+
+            <!--Fourth row-->
+            <!--/Fourth row-->
+          </div>
+          <!--/Third column-->
+
+        </div>
+        <!--/First row-->
+
+      </section>
+      <!--Section: Not enough-->
+
+      <hr class="mb-5">
+
+      <!--Section: More-->
+      <section>
+
+        <h2 class="my-5 h3 text-center">Skills I Possess</h2>
+
+        <!--First row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/HTMLicon.png">
+              </div>
+              <div class="col-10 mb-2 pl-3">
+                <h5 class="feature-title font-bold mb-1"></h5>
+                <p class="grey-text mt-2">
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/CSSicon.png">
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1"></h5>
+                <p class="grey-text mt-2">
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/JSicon.png">
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1"></h5>
+                <p class="grey-text mt-2">
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/BootStrap.BULMAiconTEXT.png">
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1"></h5>
+                <p class="grey-text mt-2">
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/First row-->
+
+        <!--Second row-->
+        <div class="row features-small mt-4 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/GITicon.png">
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Modularity</h5>
+                <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use libraries including all features as
+                  well as modules for CSS (SASS files) and JS.</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/NODEicon.png">
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Technical support</h5>
+                <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to contact us.
+                </p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/SQL.MONGOicon.png">
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">Flexbox</h5>
+                <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/img/Icons/REACTicon.PNG">
+              </div>
+              <div class="col-10 mb-2">
+                <h5 class="feature-title font-bold mb-1">SASS files</h5>
+                <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
+              </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Second row-->
+
+      </section>
+      <!--Section: More-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/profile.php?id=7020493" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/matthew-allen-5a486972/" target="_blank">
+        <i class="fab fa-linkedin mr-3"></i>
+      </a>
+
+      <a href="https://github.com/JustMrMatt" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
 </body>
+
 </html>
