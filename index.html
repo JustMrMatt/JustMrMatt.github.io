@@ -13,33 +13,10 @@
   <!-- Material Design Bootstrap -->
   <link href="assets/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
+  <link href="assets/css/MyStyle.css" rel="stylesheet">
   <link href="assets/css/style.min.css" rel="stylesheet">
-  <style type="text/css">
-    /* Necessary for full page carousel*/
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Maven+Pro|Merienda|Merriweather|Playfair+Display&display=swap" rel="stylesheet">
 
-    /* Carousel*/
-    .carousel,
-    .carousel-item,
-    .carousel-item.active {
-      height: 100%;
-    }
-    .carousel-inner {
-      height: 100%;
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-          background: #1C2331!important;
-      }
-  }
-
-  </style>
 </head>
 
 <body>
@@ -129,8 +106,8 @@
 
             <!-- Content -->
             <div class="text-center white-text mx-10 wow fadeIn">
-              <h1 class="mb-4"><strong>Matthew Allen</strong></h1>
-              <h2 class="mb-4"><strong>Front End Web Developer</strong></h2>
+              <div class="WelcomePageOne"><strong>Matthew Allen</strong></div>
+              <div class="WelcomePageTwo"><strong>Front End Web Developer</strong></div>
             </div>
           </div>
         </div>
@@ -309,8 +286,11 @@
             <!--Second row-->
             <div class="row">
               <div class="col-12">
-                <h6 class="feature-title"><a href="">Str8 Fire Technical Solutions</a></h6>
-                <div style="height:15px">A cryptocurrency website offering various crypto related services</div>
+                  <div class = "thumbnail">
+                      <img src = "assets/img/ToyStoryClickResized.png" alt = "Generic placeholder thumbnail">
+                   </div>
+                <h6 class="feature-title"><a href="">Toy Story Memory Clicker</a></h6>
+                <div style="height:15px"></div>
               </div>
             </div>
             <!--/Second row-->
@@ -321,9 +301,9 @@
             <div class="row">
               <div class="col-12">
                   <div class = "thumbnail">
-                      <img src = "assets/img/DeadpoolRPGThumbnailResized.jpg" alt = "Generic placeholder thumbnail">
+                      <img src = "assets/img/Str8FireResized.png" alt = "Generic placeholder thumbnail">
                    </div>
-                <h6 class="feature-title"><a  href="">Funko Style RPG Game</a></h6>
+                <h6 class="feature-title"><a  href="">Str8 Fire Technical Solutions</a></h6>
                 <div style="height:15px"></div>
               </div>
             </div>
@@ -332,8 +312,11 @@
             <!--Second row-->
             <div class="row">
               <div class="col-12">
+                  <div class = "thumbnail">
+                      <img src = "assets/img/CrystalCollectorResized.png" alt = "Generic placeholder thumbnail">
+                   </div>
                 <h6 class="feature-title"><a  href="">Crystal Collector Game</a></h6>
-                <div style="height:15px">A memory game utilizing Jquery and Bootstrap</div>
+                <div style="height:15px"></div>
               </div>
             </div>
             <!--/Second row-->
@@ -354,8 +337,11 @@
               <!--/Second row-->
               <div class="row">
                   <div class="col-12">
-                    <h6 class="feature-title"><a  href="">The Bearded Veteran</a></h6>
-                    <div style="height:15px">An amazon business started and run by a US Veteran</div>
+                      <div class = "thumbnail">
+                        <a href=""><img src = "assets/img/DeadpoolRPGThumbnailResized.jpg" alt = "Generic placeholder thumbnail"></a>
+                      </div>
+                    <h6 class="feature-title"><a  href="">Funko Style RPG Game</a></h6>
+                    <div style="height:15px"></div>
                   </div>
                 </div>
               </div>
@@ -367,18 +353,44 @@
       </section>
       <!--Section: Not enough-->
 
-      <hr class="mb-5">
 
       <!--Section: More-->
 
       <!--Section: More-->
 
     </section>
+    <section id="testimonials" style="padding-top: 20px; padding-bottom: 20px">
+        <h2 class="my-5 h3 text-center">Testimonials</h2>
+        <div class="row mb-5 mt-3 wow fadeIn">
+            <!--First column-->
+            <div class="col-4 text-center">
+                <div style="padding-left: 50px; padding-right: 50px; margin-left: 150px; font-style: italic">"Matt helped me design and build my the website for my business. He has great vision and was able to capture exactly what I was looking for. He is always available to talk through design and help guide us to the product we want to see. He is the go to guy for all of our front-end web development needs!"</div>
+                <br>
+                <div style="padding-left: 50px; padding-right: 50px; margin-left: 150px; font-style: italic">Kiefer Gingles, CEO</div>
+                <div style="padding-left: 50px; padding-right: 50px; margin-left: 150px; font-style: italic">Ready Restoration</div>
+            </div>
+            <!--Second column-->
+            <div class="col-4 text-center">
+                <div style="padding-left: 120px; padding-right: 120px; font-style: italic">"I have been going to Matt for all of my software development needs for years. He is always able to help me with any web design needs I have. He has helped me setup and code the front end of our website. He has a great vision and is always patient and willing to make changes until we get the look we want. I always know I can count on him whenever I need some help."</div>
+                <br>
+                <div style="padding-left: 120px; padding-right: 120px; font-style: italic">Eric Walters, Vice President</div>
+                <div style="padding-left: 120px; padding-right: 120px; font-style: italic">Pensacola Fuel Injection</div>
+                <div></div>
+            </div>
+             <!--Third column-->
+             <div class="col-4 text-center">
+                <div style="padding-left: 50px; padding-right: 50px; margin-right: 150px; font-style: italic">"Matt has been helping me design, build, and manage various websites for both my personal and business needs. He is always eager to work on new projects I have and communicates well. I trust his judgement and value his opinion with all of my technical needs. Matt has also helped me build several computers and always helps me maintain all my tech software."</div>
+                <br>
+                <div style="padding-left: 50px; padding-right: 50px; margin-right: 150px; font-style: italic">Ryan Smeltz, Owner</div>
+                <div style="padding-left: 50px; padding-right: 50px; margin-right: 150px; font-style: italic">The Bearded Veteran</div>
+            </div>
+        </div>
+    </section>
   </main>
   <!--Main layout-->
   
   <!--Footer-->
-  <footer class="page-footer text-center font-large">
+  <footer class="page-footer text-center font-large" style="padding-top: 15px">
 
     <!-- Social icons -->
     <div class="pb-4">

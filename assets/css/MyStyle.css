@@ -1,0 +1,18 @@
+#testimonials {
+    background-color: lightgrey;
+    font: white;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.WelcomePageOne {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+}
+
+.WelcomePageTwo {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
